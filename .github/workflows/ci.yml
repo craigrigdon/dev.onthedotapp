@@ -4,16 +4,16 @@ on:
   # but only for the main branch
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 jobs:
   build:
     name: Build Jekyll
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@master
       - name: Build the site in the jekyll/builder container
         run: |
           export JEKYLL_VERSION=3.8
