@@ -16,7 +16,8 @@ author: Craig Rigdon
 navbar-links:
   Developer: "aboutme"
   Privacy: "privacy"
-  Author's home: "https://www.craigrigdon.com"
+  # Author's home: "https://www.craigrigdon.com"
+  Support: "support"
 
 # --- Logo --- #
 
