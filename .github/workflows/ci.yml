@@ -1,11 +1,19 @@
 name: Beautiful Jekyll CI
-on: [push, pull_request]
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 jobs:
   build:
     name: Build Jekyll
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@latest
+      - uses: actions/checkout@main
       - name: Build the site in the jekyll/builder container
         run: |
           export JEKYLL_VERSION=3.8
