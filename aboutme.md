@@ -6,7 +6,7 @@ subtitle: About the developer
 
 ### Meet the Developer
 
-#Craig Rigdon
+Craig Rigdon
 
 On The Dot was born out of necessity. Busy dad of four, Craig, was struggling to manage multiple drop offs and pickups for his active family. Taking cues via text from his multitasking wife seemed to be the only way to mange their busy household. A typical Saturday included dropping one child off a birthday party, running another to a sporting event, a play date, a rehearsal, balancing social commitments, nap schedules, grocery shopping and trips to the hardware store. 
 
