@@ -226,7 +226,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
-include: ['.well-known/appspecific/']
+include: ['.well-known']
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
