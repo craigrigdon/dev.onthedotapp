@@ -226,6 +226,8 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+include:
+  - .well-known/appspecific/
 
 plugins:
   - jekyll-paginate
